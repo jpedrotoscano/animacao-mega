@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="mega" class="start"></div>
+
+    <script>
+        addEventListener('keydown', (e) => {
+            if(e.key === 'ArrowRight') {
+                mega.classList.remove('start');
+                mega.classList.add('run')
+                return
+            }
+            if(e.key === ' ') {
+                mega.classList.remove('run');
+                mega.classList.add('start')
+                return 
+            }
+            if(e.key === 'ArrowLeft') {
+
+            }
+        })
+
+        // runRight.onclick = () => {
+        //     mega.classList.add('run')
+        //     mega.classList.remove('start')
+        // }
+        // stopRun.onclick = () => {
+        //     mega.classList.remove('run')
+        //     mega.classList.add('stop')
+        // }
+    </script>
+</body>
+</html>
+
+
+<!-- 
+###### Fazer o boneco correr no lado oposto
+###### fazer a animação de pular
+###### fazer a animação de disparar
+###### fazer a animação do punch
+
+ -->
